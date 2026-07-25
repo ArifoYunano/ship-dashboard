@@ -23,7 +23,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: ghcr.io/${{ github.repository }}:latest
+          tags: ghcr.io/arifoyunano/ship-dashboard:latest
 
 permissions:
   packages: write
